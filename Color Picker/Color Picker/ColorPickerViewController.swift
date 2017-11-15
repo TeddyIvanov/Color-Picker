@@ -14,7 +14,13 @@ class ColorPickerViewController: UIViewController, UIPickerViewDelegate, UIPicke
     
     //Red, Orange, Yellow, Green, Blue and Purple.
     @IBOutlet weak var cololLabel: UILabel!
-    let colors: [(color: UIColor, name: String)] = [(.red, "Red"), (.orange, "Orange"), (.yellow, "Yellow"), (.green, "Green"), (.blue, "Blue"), (.purple, "Purple")]
+//    let colors: [(color: UIColor, name: String)] = [(.red, "Red"), (.orange, "Orange"), (.yellow, "Yellow"), (.green, "Green"), (.blue, "Blue"), (.purple, "Purple")]
+    let colors: [Color] = [Color(color: .red, name: "Red"),
+                           Color(color: .orange, name: "Orange"),
+                           Color(color: .yellow, name: "Yellow"),
+                           Color(color: .green, name: "Green"),
+                           Color(color: .blue, name: "Blue"),
+                           Color(color: .purple, name: "Purple")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -14,6 +14,7 @@
 		9FB3EC091FBBB36B00218849 /* Color_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3EC081FBBB36B00218849 /* Color_PickerTests.swift */; };
 		9FB3EC141FBBB36B00218849 /* Color_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3EC131FBBB36B00218849 /* Color_PickerUITests.swift */; };
 		9FB3EC221FBBB3ED00218849 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3EC211FBBB3ED00218849 /* ColorPickerViewController.swift */; };
+		9FB3EC261FBBC07900218849 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3EC251FBBC07900218849 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9FB3EC131FBBB36B00218849 /* Color_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITests.swift; sourceTree = "<group>"; };
 		9FB3EC151FBBB36B00218849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB3EC211FBBB3ED00218849 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		9FB3EC251FBBC07900218849 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9FB3EBFC1FBBB36B00218849 /* LaunchScreen.storyboard */,
 				9FB3EBFF1FBBB36B00218849 /* Info.plist */,
 				9FB3EC211FBBB3ED00218849 /* ColorPickerViewController.swift */,
+				9FB3EC251FBBC07900218849 /* Color.swift */,
 			);
 			path = "Color Picker";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				9FB3EC221FBBB3ED00218849 /* ColorPickerViewController.swift in Sources */,
 				9FB3EBF41FBBB36B00218849 /* AppDelegate.swift in Sources */,
+				9FB3EC261FBBC07900218849 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
